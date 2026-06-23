@@ -1,17 +1,55 @@
-### In short, everyone gets 8 origin lives and each origin lasts 3 hours of time.
+<div align="center">
 
-# Lives Mechanics
-- Display 3-hour timer in bottom right of player's screen.
-- If a player dies, they lose 1 hour of time. Display message for player: -1 hour.
-- If the player dies with more than 1 hour remaining, their origin doesn't change.
-- If the player dies with less than 1 hour remaining or their timer reaches 0, their origin changes and they lose one origin life.
-- If a player loses an origin life, the color of their nametag changes depending on the number of origin lives left: 8 = White, 7 = Pink, 6 = Purple, 5 = Blue, 4 = Green, 3 = Yellow, 2 = Orange, 1 = Red
-- If a player on their last origin dies with less than 1 hour left or their timer reaches 0, that player is put in spectator mode. Display message for all players: [playername] has run out of lives!
+# Timed Lives
 
-# Boogeyman Mechanics
-- A random player is chosen as the boogeyman.
-- If a player is not chosen, display message for players: You are NOT the boogeyman.
-- If a player is chosen, display message for that player: You are the boogeyman.
-- If the boogeyman kills a player, display message for boogeyman: You are cured.
-- The player killed loses 2 hours of time. Display message: -2 hours.
-- If the boogeyman doesn't kill a player, display message for boogeyman: You have failed. That player is put on their last origin
+### Eight lives. A three-hour clock. And a boogeyman among you.
+
+![Minecraft](https://img.shields.io/badge/Minecraft-1.19-62B47A?style=for-the-badge)
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/timed-lives?logo=modrinth&style=for-the-badge)
+
+[<img alt="modrinth" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/timed-lives)
+[<img alt="forge" height="52" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg">](https://files.minecraftforge.net)
+
+**by [Duzo](https://duzo.is-a.dev/)**
+
+</div>
+
+## What is it?
+
+A multiplayer survival challenge that puts **a time limit on your life**, built on the [Origins](https://modrinth.com/mod/origins) mod. Everyone gets **8 lives**, and each origin only lasts **3 hours** of play before it changes. Run out, and you're a spectator.
+
+## Lives
+
+- A **3-hour timer** shows in the bottom-right of your screen.
+- **Die** and you lose **1 hour**.
+- Die with **more than 1 hour** left and your origin stays.
+- Die with **under 1 hour** left (or hit zero) and your origin changes — costing you a life.
+- Your nametag colour tracks your remaining lives:
+
+  | Lives | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
+  |---|---|---|---|---|---|---|---|---|
+  | Colour | White | Pink | Purple | Blue | Green | Yellow | Orange | Red |
+
+- Lose your **last** life and you're put into spectator mode — *"[player] has run out of lives!"*
+
+## The Boogeyman
+
+- Each round, a random player is secretly chosen as the **boogeyman**.
+- Kill a player and you're **cured**; the player you killed loses **2 hours**.
+- Fail to get a kill and you fall to your **last life**.
+
+## Requirements
+
+- Minecraft **1.19** (Forge)
+- [Origins](https://modrinth.com/mod/origins)
+
+## Links
+
+- [Modrinth](https://modrinth.com/mod/timed-lives)
+- [GitHub](https://github.com/duzos/originlife)
+
+## Credits
+
+By [Duzo](https://duzo.is-a.dev/).
+
+> No longer actively updated, but available on Modrinth.
