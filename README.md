@@ -23,14 +23,14 @@ A multiplayer survival challenge that puts **a time limit on your life**, built 
 - A **3-hour timer** shows in the bottom-right of your screen.
 - **Die** and you lose **1 hour**.
 - Die with **more than 1 hour** left and your origin stays.
-- Die with **under 1 hour** left (or hit zero) and your origin changes — costing you a life.
+- Die with **under 1 hour** left (or hit zero) and your origin changes - costing you a life.
 - Your nametag colour tracks your remaining lives:
 
   | Lives | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
   |---|---|---|---|---|---|---|---|---|
   | Colour | White | Pink | Purple | Blue | Green | Yellow | Orange | Red |
 
-- Lose your **last** life and you're put into spectator mode — *"[player] has run out of lives!"*
+- Lose your **last** life and you're put into spectator mode - *"[player] has run out of lives!"*
 
 ## The Boogeyman
 
