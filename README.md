@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://cdn.modrinth.com/data/bQM8UxLX/ea7e0b5577ceede2c231d4fba09d31f15d3b77d9_96.webp" height="96" alt="Timed Lives">
+
 # Timed Lives
 
 ### Eight lives. A three-hour clock. And a boogeyman among you.
